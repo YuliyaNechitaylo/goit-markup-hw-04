@@ -376,7 +376,7 @@ img {
 }*/
 
 .social-links {
-  color: black;
+  color: #000000;
 }
 
 .social-links:hover,
@@ -428,11 +428,13 @@ a {
   width: 235px;
   text-align: left;
 }
+
 .footer-adress,
 .footer-social {
   width: 235px;
   margin-right: 75px;
 }
+
 .footer-list {
   list-style: none;
   display: inline-block;
