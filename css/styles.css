@@ -375,11 +375,15 @@ img {
   border-radius: 50%;
 }*/
 
-/*.social-links:hover,
+.social-links {
+  color: black;
+}
+
+.social-links:hover,
 .social-links:focus {
   color: #188ce8;
   display: inline-flex;
-}*/
+}
 
 a {
   text-decoration: none;
