@@ -164,7 +164,7 @@ img {
     ),
     url(../photo/Header.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   min-height: 600px;
   max-width: 1600px;
 }
@@ -282,8 +282,7 @@ img {
   background-color: #ffffff;
   border-radius: 50%;
   justify-content: center;
-  align-items: center;
-  align-content: space-between;
+  align-content: center;
   margin-bottom: 24px;
   margin-right: 10px;
 }
@@ -312,15 +311,20 @@ img {
 }
 
 .title-h4 {
+  display: flex;
   margin-top: 30px;
   margin-bottom: 10px;
+  align-content: center;
+  justify-content: center;
 }
 .clients {
   margin-top: 94px;
 }
 .discription {
+  display: flex;
   color: #757575;
-  align-items: center;
+  align-content: center;
+  justify-content: center;
 }
 .icon-logo {
   display: inline-flex;
@@ -382,7 +386,6 @@ img {
 .social-links:hover,
 .social-links:focus {
   color: #188ce8;
-  display: inline-flex;
 }
 
 a {
